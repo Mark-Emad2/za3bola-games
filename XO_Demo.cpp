@@ -45,6 +45,7 @@ int main() {
         delete game_ui;
     }
 
+
     else if (choice == 2) {
         cout << "\nLaunching Numerical Tic-Tac-Toe..." << endl;
 
