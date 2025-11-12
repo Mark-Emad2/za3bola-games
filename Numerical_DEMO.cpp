@@ -13,6 +13,7 @@
 //
 //     Player<int>** players = game_ui->setup_players();
 //
+
 //     players[0]->set_board_ptr(game_board);
 //     players[1]->set_board_ptr(game_board);
 //
