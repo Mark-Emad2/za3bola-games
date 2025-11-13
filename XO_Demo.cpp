@@ -28,7 +28,6 @@ int main() {
     cin >> choice;
 
     if (choice == 1) {
-        // --- Run X-O Game (Code from original XO_Demo.cpp) ---
         cout << "\nLaunching X-O Game..." << endl;
 
         UI<char>* game_ui = new XO_UI();
@@ -62,7 +61,7 @@ int main() {
         delete[] players;
         delete game_ui;
     }
-    else {
+    else if (choice!=0) {
         cout << "Invalid choice. Exiting." << endl;
     }
 
